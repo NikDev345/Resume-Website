@@ -218,6 +218,7 @@ return (
             mb-8
           "
         >
+          <span></span>
           <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
 
           <span className="text-white/70">
