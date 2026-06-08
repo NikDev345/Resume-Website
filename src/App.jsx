@@ -196,6 +196,34 @@ return (
     <div className="grid lg:grid-cols-[1.2fr_0.8fr] gap-10 items-center">
 
       {/* LEFT SIDE */}
+      <div>
+
+        {/* Badge */}
+        <div
+          className="
+            inline-flex
+            items-center
+            gap-3
+
+            px-5
+            py-2
+
+            rounded-full
+
+            bg-white/[0.04]
+            border border-white/[0.08]
+
+            backdrop-blur-xl
+
+            mb-8
+          "
+        >
+          <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+
+          <span className="text-white/70">
+            Available For Opportunities
+          </span>
+        </div>
 
         {/* Main Heading */}
         <h1
@@ -301,34 +329,6 @@ return (
             Contact Me
           </button>
 
-        </div>
-      <div>
-
-        {/* Badge */}
-        <div
-          className="
-            inline-flex
-            items-center
-            gap-3
-
-            px-5
-            py-2
-
-            rounded-full
-
-            bg-white/[0.04]
-            border border-white/[0.08]
-
-            backdrop-blur-xl
-
-            mb-8
-          "
-        >
-          <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-
-          <span className="text-white/70">
-            Available For Opportunities
-          </span>
         </div>
 
         {/* Stats */}
